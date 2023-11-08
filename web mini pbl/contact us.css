@@ -1,0 +1,85 @@
+body {
+	background-color: #fce6e6;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.contact {
+	min-height: 100px;
+	background-color: #fce6e6;
+	padding: 50px;
+	text-align: center;
+}
+.ct {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.ct h2 {
+	font: 36px;
+	margin-bottom: 40px;
+}
+.ct-w {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+}
+.ct-f {
+	text-align: left;
+}
+.ct-f h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.fg {
+	margin-bottom: 20px;
+}
+input, textarea {
+	width: 100%;
+	padding: 12px;
+	border-radius: 8px;
+	border: none;
+	background-color: white;
+}
+input:focus,
+textarea:focus {
+	outline: none;
+	box-shadow: 0 0 8px gray;
+}
+form > button {
+	display: inline-block;
+	padding: 12px 24px;
+	border: none;
+	background-color: #fac8c8;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+form > button:hover {
+	background-color: #f7ceab;
+	 box-shadow: 3px 3px 3px 3px gray;
+}
+.info {
+        text-align: center;
+}
+.info h3 {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.info p{
+	margin-bottom: 30px;	
+}
+
+.info a{
+	text-decoration: none;
+	color: black;
+}
+
+@media screen and (max-width: 768px){
+	.ct {
+		padding: 20px;
+	}
+	.ct-w {
+		grid-template-columns: 1fr;
+	}
+}

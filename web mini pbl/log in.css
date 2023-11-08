@@ -1,0 +1,53 @@
+body {
+    background-color: #fce6e6;
+}
+.sign-up {
+    width: 360px;
+    height: 520px;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+}
+.sign-up, .login > h1 {
+    text-align: center;
+    padding-top: 15px;   
+}
+.login {
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+}
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input {
+ width: 100%;   
+ padding: 7px;
+ border: 1px solid black;
+ border-radius: 6px;
+ outline: none;
+}
+input[type="button"]{
+ width: 320px;   
+ height: 35px;
+ margin-top: 20px;
+ border: none;
+ background-color: #fce6e6;
+ font-size: 18px;
+}
+.para {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.para a{
+ text-decoration: none;
+}
